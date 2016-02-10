@@ -26,6 +26,7 @@ class PostsController < ApplicationController
   # POST /posts.json
   def create
 @post = Post.new(post_params)
+# TO UPLOAD MULTIPLE FILES
 # params[:post][:attach].each do |file|
 # @post= Post.new(:attach => file)
 # @post.save
